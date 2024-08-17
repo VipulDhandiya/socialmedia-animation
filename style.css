@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(315deg, #fff 0%, #d7e1ec 74%);
+}
+
+.content ul {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.content ul li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 8px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s all ease-in-out;
+    overflow: hidden;
+}
+
+.content ul li .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.content ul li span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 8px;
+
+}
+
+.content ul li:hover {
+    width: 190px;
+}
+
+.content ul li:nth-child(1):hover .icon {
+    background: #4267b2;
+    color: #fff;
+}
+
+.content ul li:nth-child(2):hover .icon {
+    background: #1da1f2;
+    color: #fff;
+}
+.content ul li:nth-child(3):hover .icon {
+    background: #e1306c;
+    color: #fff;
+}
+.content ul li:nth-child(4):hover .icon {
+    background: #ff0000;
+    color: #fff;
+}
+
+.content ul li:nth-child(1):hover span {
+    color: #4267b2;
+}
+
+.content ul li:nth-child(2):hover span {
+    color: #1da1f2;
+}
+.content ul li:nth-child(3):hover span {
+    color: #e1306c;
+}
+.content ul li:nth-child(4):hover span {
+    color: #ff0000;
+}
